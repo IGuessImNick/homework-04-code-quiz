@@ -2,7 +2,7 @@
 
 This project was designed for the UC Davis Fullstack Web Development Program. It has been deployed to GitHub pages at the following link:
 
-
+https://iguessimnick.github.io/homework-04-code-quiz/
 
 ## Summary
 
