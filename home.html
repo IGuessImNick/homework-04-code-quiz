@@ -11,25 +11,23 @@
 </head>
 
 <body>
-
-
-    <section id="container">
-        <!-- Timer Display -->
-        <div id="currentTime"></div>
-        <!-- Quiz Content -->
-        <div id="questionsDiv">
-            <h1>Coding Quiz Challenge</h1>
-            <p>Click the button to begin. You will have 60 seconds to answer some basic coding questions. For each questions you answer incorrectly, 10 seconds will be subtracted from your time. At the end of the quiz you can save your score and initials. Good luck!</p>
-            <ul id="choicesUl"></ul>
-            <!-- Button -->
-            <button id="startTime">Start Quiz</button>
-        </div>
-        <!-- Link to highscores -->
-        <a id="highscores" href="./scores.html">View Highscores</a>
-
-    </section>
-
-    <script src="./assets/JS/home.js"></script>
+    <div class="min-vh-100 d-flex justify-content-center align-items-center bg-dark">
+        <section id="container" class="bg-white d-flex justify-content-center col-md-6">
+            <!-- Timer Display -->
+            <div id="currentTime"></div>
+            <!-- Quiz Content -->
+            <div id="questionsDiv" class="p-3 m-3">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Click the button to begin. You will have 60 seconds to answer some basic coding questions. For each questions you answer incorrectly, 10 seconds will be subtracted from your time. At the end of the quiz you can save your score and initials. Good luck!</p>
+                <ul id="choicesUl"></ul>
+                <!-- Button -->
+                <button id="startTime" class="btn btn-primary">Start Quiz</button>
+            </div>
+            <!-- Link to highscores -->
+            <a id="highscores" href="./scores.html">View Highscores</a>
+        </section>
+    </div>
+<script src="./assets/JS/home.js"></script>
 
 </body>
 

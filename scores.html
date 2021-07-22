@@ -12,19 +12,20 @@
 </head>
 
 <body>
- 
-    <section id="container">
-        <!-- Timer element -->
-        <div id="currentTime"></div>
-        <div id="questionsDiv">
-            <h1>Highscores</h1>
-            <ul id="highScore"></ul>
-            <!-- Clear highscores and Home button -->
-            <button id="home">Home</button>
-            <button id="clear" value="reset">Clear Highscore</button>
-        </div>
-    </section>
-    <script src="./assets/JS/scores.js"></script>
+    <div class="min-vh-100 d-flex justify-content-center align-items-center bg-dark">
+        <section id="container" class="bg-white p-3 m-3">
+            <!-- Timer element -->
+            <div id="currentTime"></div>
+            <div id="questionsDiv">
+                <h1>Highscores</h1>
+                <ul id="highScore"></ul>
+                <!-- Clear highscores and Home button -->
+                <button id="home" class="btn btn-primary">Home</button>
+                <button id="clear" value="reset" class="btn btn-danger">Clear Highscore</button>
+            </div>
+        </section>
+    </div>
+<script src="./assets/JS/scores.js"></script>
 </body>
 
 </html>

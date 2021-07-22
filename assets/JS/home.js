@@ -75,6 +75,7 @@ function execute(questionIndex) {
     userChoices.forEach(function (newItem) {
         var listItem = document.createElement("li");
         listItem.textContent = newItem;
+        listItem.setAttribute("class", "list-group-item")
         questionsDiv.appendChild(ulCreate);
         ulCreate.appendChild(listItem);
         listItem.addEventListener("click", (compare));
@@ -160,6 +161,7 @@ function finish() {
     var createSubmit = document.createElement("button");
     createSubmit.setAttribute("type", "submit");
     createSubmit.setAttribute("id", "Submit");
+    createSubmit.setAttribute("class", "btn btn-primary");
     createSubmit.textContent = "Submit Score";
 
     questionsDiv.appendChild(createSubmit);
