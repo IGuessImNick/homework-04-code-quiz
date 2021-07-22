@@ -29,5 +29,5 @@ if (allScores !== null) {
 }
 // back to home page
 homeBtn.addEventListener("click", function () {
-    window.location.replace("./home.html");
+    window.location.replace("./index.html");
 });
